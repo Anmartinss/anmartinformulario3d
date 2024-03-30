@@ -90,7 +90,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 0.1rem;
 }
 
 .input-box {
@@ -188,10 +188,10 @@ body {
     }
     .input-group {
         flex-direction: column;
-        overflow-y: scroll;
+        overflow-y: auto;
         flex-wrap: nowrap;
-        max-inline-size: 10rem;
-        padding-right: 5rem;
+        max-inline-size: 20rem;
+        padding-right: 8rem;
     }
     .gender-inputs {
         margin-top: 2rem;
